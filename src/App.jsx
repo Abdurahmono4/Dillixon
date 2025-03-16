@@ -1568,9 +1568,9 @@ function App() {
                 className={`option ${
                   selectedAnswer !== null
                     ? index === questions[currentQuestion].answer
-                      ? "correct" // ✅ To‘g‘ri javob yashil bo‘ladi
+                      ? "correct" // ✅ TO‘G‘RI JAVOB YASHIL BO‘LADI
                       : index === selectedAnswer
-                      ? "wrong" // ❌ Xato javob qizil bo‘ladi
+                      ? "wrong" // ❌ NOTO‘G‘RI JAVOB QIZIL BO‘LADI
                       : ""
                     : ""
                 }`}
